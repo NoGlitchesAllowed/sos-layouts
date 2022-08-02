@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/break.css">
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/textfit/2.4.0/textFit.min.js" integrity="sha512-vLs5rAqfvmv/IpN7JustROkGAvjK/L+vgVDFe7KpdtLztqF8mZDfleK2MZj/xuOrWjma0pW+lPCMcBbPKJVC7g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer">
+    </script>
+    <script
+		  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js" integrity="sha256-cHVO4dqZfamRhWD7s4iXyaXWVK10odD+qp4xidFzqTI=" crossorigin="anonymous"></script>
+    <script src="js/break.js" defer></script>
+    <script src="js/donationCounter.js" defer></script>
+  </head>
+  <body>
+    <img id="background" src="backgrounds/break.png"></img>
+    <span class="text clearOnReload" id="game0"></span>
+    <span class="text clearOnReload" id="categoryAndEstimate0"></span>
+    <span class="text clearOnReload" id="players0"></span>
+    <span class="text clearOnReload" id="game1"></span>
+    <span class="text clearOnReload" id="category1"></span>
+    <span class="text clearOnReload" id="players1"></span>
+    <span class="text clearOnReload" id="game2"></span>
+    <span class="text clearOnReload" id="category2"></span>
+    <span class="text clearOnReload" id="players2"></span>
+    <span id="hostContainer">
+      <span class="text" id="host"></span>
+      <span class="text pronouns" id="hostPronouns"></span>
+    </span>
+    <div id="songContainer">
+      <span class="text" id="songTitle"></span>
+      <span class="text" id="songArtists"></span>
+    </div>
+    <span class="text" id="donationTotal"></span>
+    <div id="tiltifyContainer">
+      <canvas id="pollCanvas"></canvas>
+      <canvas id="challengeCanvas"></canvas>
+    </div>
+  </body>
+</html>

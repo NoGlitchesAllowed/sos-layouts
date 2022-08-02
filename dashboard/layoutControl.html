@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+		  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="css/layoutControl.css">
+    <script src="js/layoutControl.js" defer></script>
+  </head>
+  <body>
+    <div id="textReplicantsContainer">
+      <span></span>
+      <span>Name</span>
+      <span>Pronouns</span>
+      
+      <span>Host</span>
+      <input type="text" id="host"></input>
+      <input type="text" id="hostPronouns"></input>
+      
+      <span>Comm. 1</span>
+      <input type="text" id="comm0"></input>
+      <input type="text" id="comm0Pronouns"></input>
+      
+      <span>Comm. 2</span>
+      <input type="text" id="comm1"></input>
+      <input type="text" id="comm1Pronouns"></input>
+      
+      <button id="submit-comms" style="grid-column: span 3">Submit Changes</button>
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" class="camera" id="camera0"></input>
+        <label for="camera0">Player Camera 1</label>
+        <input type="checkbox" class="camera" id="camera1"></input>
+        <label for="camera1">Player Camera 2</label>
+    </div>
+  </body>
+</html>

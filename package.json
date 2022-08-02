@@ -1,0 +1,62 @@
+{
+  "name": "sos-layouts",
+  "version": "0.0.0",
+  "description": "Layouts for broadcast",
+  "nodecg": {
+    "compatibleRange": "^1.9.0",
+    "bundleDependencies": {
+      "nodecg-speedcontrol": "^2.4.0",
+      "nodecg-tiltify": "^0.0.0"
+    },
+    "graphics": [
+      {
+        "file": "3x2_p1.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "4x3_p1.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "16x9_p1.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "4x3_p2.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "16x9_p2.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "break.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "interview.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "omnibar.html",
+        "width": 1920,
+        "height": 127
+      }
+    ],
+    "dashboardPanels": [
+      {
+        "name": "Layout Control",
+        "title": "Layout Control",
+        "file": "layoutControl.html",
+        "width": 4
+      }
+    ]
+  }
+}

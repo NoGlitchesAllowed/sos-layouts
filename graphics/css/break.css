@@ -1,0 +1,146 @@
+body {
+  background-color: grey;
+}
+
+.text {
+  position: fixed;
+}
+
+.rightspace {
+  padding-right: 50px;
+}
+
+#game0 {
+  left: 1093px;
+  top: 98px;
+  width: 698px;
+  height: 116px;
+}
+
+#categoryAndEstimate0 {
+  left: 1093px;
+  top: 218px;
+  width: 698px;
+  height: 80px;
+}
+
+#players0 {
+  left: 1052px;
+  top: 306px;
+  width: 780px;
+  height: 80px;
+}
+
+#game1 {
+  left: 1052px;
+  top: 481px;
+  width: 780px;
+  height: 60px;
+}
+
+#category1 {
+  left: 1052px;
+  top: 543px;
+  width: 388px;
+  height: 60px;
+}
+
+#players1 {
+  left: 1444px;
+  top: 543px;
+  width: 388px;
+  height: 60px;
+}
+
+#game2 {
+  left: 1052px;
+  top: 697px;
+  width: 780px;
+  height: 60px;
+}
+
+#category2 {
+  left: 1052px;
+  top: 759px;
+  width: 388px;
+  height: 60px;
+}
+
+#players2 {
+  left: 1444px;
+  top: 759px;
+  width: 388px;
+  height: 60px;
+}
+
+#hostContainer {
+  position: fixed;
+  left: 120px;
+  top: 960px;
+  width: 630px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#host {
+  position: static;
+  font-size: 100px;
+}
+
+.pronouns {
+  position: static;
+  margin-left: 20px;
+  font-size: 40px;
+  -webkit-text-stroke-width: 1px;
+  background-color: #5A5A96;
+  padding: 4px 8px 4px 8px;
+  border: 3px solid black;
+}
+
+#songContainer {
+  position: fixed;
+  left: 878px;
+  top: 960px;
+  width: 617px;
+  height: 120px;
+  overflow: hidden;
+}
+#songTitle, #songArtists {
+  position: fixed;
+  font-size: 60px;
+  -webkit-text-stroke-width: 1px;
+}
+
+#songTitle {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 55px;
+  overflow: hidden;
+}
+
+#songArtists {
+  position: absolute;
+  left: 0px;
+  top: 55px;
+  height: 55px;
+  overflow: hidden;
+}
+
+#donationTotal {
+  left: 1533px;
+  top: 956px;
+  font-size: 136px;
+}
+
+#tiltifyContainer {
+  position: absolute;
+  left: 80px;
+  top: 474px;
+  width: 796px;
+  height: 398px;
+}

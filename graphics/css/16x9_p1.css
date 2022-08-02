@@ -1,0 +1,42 @@
+#cameraFill0 {
+  left: 0px;
+  top: 0px;
+}
+
+#nameplate0 {
+  left: 0px;
+  top: 556px;
+  width: 547px;
+}
+
+#game {
+  left: 40px;
+  top: 644px;
+  width: 468px;
+  height: 160px;
+}
+
+#category {
+  left: 40px;
+  top: 809px;
+  width: 468px;
+  height: 80px;
+}
+
+#belowCategoryContainer {
+  left: 40px;
+  top: 892px;
+  width: 468px;
+  height: 60px;
+  font-size: 50px;
+}
+
+#timerContainer {
+  left: 555px;
+  top: 776px;
+  width: 707px;
+  height: 176px;
+  font-size: 136px;
+}
+  
+

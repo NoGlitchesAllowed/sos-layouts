@@ -1,0 +1,29 @@
+#background {
+  z-index: -10;
+}
+
+@font-face {
+  font-family: TT_BLUESCREENS_DEMIBOLD;
+  src: url(../fonts/TT_BLUESCREENS_DEMIBOLD.ttf);
+}
+
+@font-face {
+  font-family: DSEG7Modern-BoldItalic;
+  src: url(../fonts/DSEG7Modern-BoldItalic.ttf);
+}
+
+
+
+body, #background {
+  font-family: TT_BLUESCREENS_DEMIBOLD;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.text {
+  color: white;
+  font-family: TT_BLUESCREENS_DEMIBOLD;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}

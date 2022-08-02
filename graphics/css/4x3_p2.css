@@ -1,0 +1,53 @@
+#cameraFill0 {
+  left: 0px;
+  top: 692px;
+}
+
+#cameraFill1 {
+  left: 1470px;
+  top: 692px;
+}
+
+#nameplate0 {
+  left: 458px;
+  top: 692px;
+  width: 498px;
+}
+
+#nameplate1 {
+  left: 964px;
+  top: 692px;
+  width: 498px;
+}
+
+#game {
+  left: 498px;
+  top: 780px;
+  width: 374px;
+  height: 112px;
+}
+
+#category {
+  left: 498px;
+  top: 898px;
+  width: 374px;
+  height: 54px;
+}
+
+#belowCategoryContainer {
+  left: 1048px;
+  top: 898px;
+  width: 374px;
+  height: 54px;
+  font-size: 50px;
+}
+
+#timerContainer {
+  left: 1048px;
+  top: 780px;
+  width: 374px;
+  height: 112px;
+  font-size: 85px;
+}
+  
+
